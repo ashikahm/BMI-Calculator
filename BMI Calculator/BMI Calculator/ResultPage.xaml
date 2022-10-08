@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI_Calculator.ResultPage"
+             Title="Results">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            
+           <Label Text="Your BMI Value is:" FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="Height" TextColor="Black" />
+            <Label x:Name="Weight" TextColor="Black"/>
+            <Label x:Name="ResultBMI" TextColor="Black"/>
+            <Label x:Name="BMIValue" FontSize="36" TextColor="Red" FontAttributes="Bold"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
